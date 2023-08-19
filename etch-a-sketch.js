@@ -37,10 +37,15 @@ function fillDiv(gridNum = 16) {
 
 const buttonMain = document.querySelector('#sizing');
 buttonMain.addEventListener('click', () => {
-    let dim = prompt("Enter your desired grid dimension as a single number\
-        (e.g. entering '2' will result in a 2x2 grid)");
-    fillDiv(dim);
+    let dim = 1 * prompt("Enter your desired grid dimension as a single number\
+    from 1-100 (e.g. entering '2' will result in a 2x2 grid)");
     
+    // check within range and input is number
+    if (dim > 100 || dim == 0 || dim !== dim) {
+        alert("You must pick a number between 1 and 100")
+    } else {
+        fillDiv(dim);
+    }
 });
 
 
