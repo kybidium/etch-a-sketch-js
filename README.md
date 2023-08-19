@@ -1,2 +1,2 @@
 # etch-a-sketch-js
-Implementation of etch-a-sketch website using javascript.
+Implementation of an etch-a-sketch webpage using Javascript, HTML, and CSS.
