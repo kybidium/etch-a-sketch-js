@@ -1,0 +1,15 @@
+#big-container {
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5vh;
+}
+
+button {
+    height: 10vh;
+    width: 50vh;
+}

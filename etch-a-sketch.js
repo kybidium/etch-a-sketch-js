@@ -1,8 +1,8 @@
 const divMain = document.querySelector('#main-div');
 
 divMain.style.display = 'flex';
-divMain.style.width = '100vh';
-divMain.style.height = '100vh';
+divMain.style.width = 'auto';
+divMain.style.height = '100%';
 divMain.style['flex-wrap'] = 'wrap';
 divMain.style.margin = '0 auto';
 
