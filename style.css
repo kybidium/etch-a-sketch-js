@@ -1,9 +1,36 @@
+body {
+    background-color: rgb(60, 120, 235);
+}
 #big-container {
     flex-direction: column;
     align-items: center;
+    height: auto;
 }
-.container {
+
+#sizing-button {
+    color: white;
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 1.5em;
+    flex: 1 1 0;
+    background-color: rgb(195,135,20);
+}
+
+#title-text {
+    margin: 0 auto;
+    color: white;
+}
+
+#main-div {
+    width: 600px;
+    height: 600px;
     display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.container {
+    display: flex;s
     align-items: center;
     justify-content: center;
     margin: 5vh;

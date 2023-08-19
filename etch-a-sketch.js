@@ -34,7 +34,7 @@ function fillDiv(gridNum = 16) {
 
 }
 
-const buttonMain = document.querySelector('#sizing');
+const buttonMain = document.querySelector('#sizing-button');
 buttonMain.addEventListener('click', () => {
     let dim = 1 * prompt("Enter your desired grid dimension as a single number\
     from 1-100 (e.g. entering '2' will result in a 2x2 grid)");
